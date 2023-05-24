@@ -65,9 +65,9 @@ export const AnimatedPila = () => {
   
 
   return (
-    <div className="flex flex-col items-center min-w-[42rem] mt-10 ">
+    <div className="flex flex-col items-center w-full max-w-2xl  mt-10 ">
       <form
-        className="flex w-full  gap-2"
+        className="flex w-full  gap-2 "
         onSubmit={(e) => {
           e.preventDefault();
           timeoutsArr.forEach((timeout) => {
